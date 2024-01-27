@@ -1,56 +1,59 @@
-import { MdOutlineContactMail } from "react-icons/md";
-import { GrMapLocation } from "react-icons/gr";
+import { MdOutlineMailOutline } from "react-icons/md";
+import { MdAddCall } from "react-icons/md";
+import { FaSkype } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+
 const Contract = () => {
-    return (
-        <div>
-            <h1 className=" mt-[30px] text-[35px] text-center text-blue-400 font-bold underline">Contact with Me</h1>
-
-
-            <div className="flex flex-col md:flex-row lg:flex-row mt-[40px] mb-[40px] gap-[40px] md: lg:ml-[350px]">
-            <div className="card w-[300px] md:w-[250px]  lg:w-[300px] bg-lime-300  shadow-xl">
-  <figure className="px-10 pt-10">
-
-    <MdOutlineContactMail className="rounded-xl text-[85px]"></MdOutlineContactMail>
-  </figure>
-  <div className="card-body items-center text-center">
-    <h2 className="text-[20px]"><span className="font-bold">Phone Number: </span>0179....32</h2>
-    <h2 className="text-[20px]"><span className="font-bold">Email: </span>mdzisanislam69@gmail.com</h2>
-   
-  </div>
-</div>
-
-<div className="card w-[300px]  md:w-[250px] lg:w-[300px] bg-lime-300 shadow-xl">
-  <figure className="px-10 pt-10">
-
-    <GrMapLocation className="rounded-xl text-[85px]"></GrMapLocation>
-  </figure>
-  <div className="card-body items-center text-center">
-    <h2 className="text-[20px]"><span className="font-bold">Address: </span>136/F Bochila,<br />Mohammad Pur</h2>
-    
-   
-  </div>
-</div>
-<div className="card w-[300px] md:w-[250px] lg:w-[300px] bg-lime-300 shadow-xl">
-  <figure className="px-10 pt-10">
-
+  return (
     <div>
-    <h1 className="text-[30px] font-bold">Contact By Email</h1>
-    <input type="text" placeholder="Enter your name" className="input input-bordered w-full max-w-xs mb-[10px]" />
-    <input type="text" placeholder="Enter your email" className="input input-bordered w-full max-w-xs mb-[10px]" />
-    <textarea className="textarea textarea-bordered" placeholder="Message"></textarea>
-    <div><button className="btn bg-violet-700 font-bold">Send</button></div>
+      <div data-aos="flip-left"  data-aos-duration="2000">
+      <h1 className="text-[#e4aa48] text-[30px] font-bold text-center mt-[30px] underline">Contract me</h1>
+
+    
+<h1 className="text-white text-[40px] text-center font-semibold">Way to contract me</h1>
+
+<p className="text-[18px] font-normal text-center text-white ">Here you can use all this information to contract with me. <br /> just contract me and  i will ensure that i<br /> will complete the work that you give</p>
+      </div>
+
+
+  <div data-aos="fade-right" className="flex flex-col md:flex-col lg:flex-row gap-[25px] container md:ml-[300px] lg:ml-[350px] mt-[30px]">
+    <div className="bg-[#4b4f52] w-[300px] p-[15px] flex flex-row-reverse justify-around items-center">
+      <p className="text-[#e4aa48] text-[22px] font-semibold ">mdzisanislam69@</p>
+      <MdOutlineMailOutline className="text-white text-[45px]"></MdOutlineMailOutline>
+
     </div>
-    
-  </figure>
-  <div className="card-body items-center text-center">
-    
-    
-   
+
+    <div className="bg-[#4b4f52] w-[300px] p-[15px] flex flex-row-reverse justify-around items-center">
+      <p className="text-[#e4aa48] text-[22px] font-semibold ">+88  01790866932</p>
+      <MdAddCall className="text-white text-[45px]"></MdAddCall>
+
+    </div>
+
+    <div className="bg-[#4b4f52] w-[250px] p-[15px] flex flex-row-reverse justify-around items-center">
+      <p className="text-[#e4aa48] text-[22px] font-semibold ">Zisan:islam_</p>
+      <FaSkype className="text-white text-[45px]"></FaSkype>
+
+    </div>
+
   </div>
-</div>
-            </div>
-        </div>
-    );
+
+  <div data-aos="fade-left"  className="flex flex-col md:flex-col lg:flex-row gap-[25px] container md:ml-[300px] lg:ml-[600px] mt-[30px] mb-[50px]">
+  <div className="bg-[#4b4f52] w-[200px] p-[15px] flex flex-row-reverse justify-around items-center">
+      <p className="text-[#e4aa48] text-[22px] font-semibold ">@Zisan</p>
+      <FaTwitter className="text-white text-[45px]"></FaTwitter>
+
+    </div>
+  <div className="bg-[#4b4f52] w-[200px] p-[15px] flex flex-row-reverse justify-around items-center">
+      <p className="text-[#e4aa48] text-[22px] font-semibold ">Git Hub</p>
+      <FaGithub className="text-white text-[45px]"></FaGithub>
+
+    </div>
+  </div>
+ 
+
+    </div>
+  );
 };
 
 export default Contract;

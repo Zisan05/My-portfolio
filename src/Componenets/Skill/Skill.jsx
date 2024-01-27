@@ -7,17 +7,14 @@ import { IoLogoJavascript } from "react-icons/io";
 const Skill = () => {
     return (
         <div className="bg-[#4b4f52] lg:h-[500px]">
-            <div  data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-duration="800"
-     data-aos-easing="ease-in-sine">
+            <div data-aos="flip-right"  data-aos-duration="2000">
          <h1 className="text-[35px] text-[#e4aa48] text-center font-semibold underline">My Skills</h1>
          <h1 className="text-[35px] text-[#d8dbdf] text-center font-semibold ">What I Am Great At</h1>
             </div>
 
             <div  data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="800" className="mt-[40px] flex gap-[5px] ml-[18%]">
+     data-aos-duration="800" className=" mt-[40px] flex flex-col md:flex-row lg:flex-row gap-[5px] lg:ml-[18%]">
 
                 <div className="h-[250px] w-[200px] bg-[#343a40]">
                     <FaReact className="text-[#e4aa48] text-[155px] container mx-auto"></FaReact>
