@@ -2,7 +2,7 @@
 
 const Experience = () => {
     return (
-        <div className="bg-[#4b4f52] h-[500px]">
+        <div className="bg-[#4b4f52] h-[800px] md:h-[500px] lg:h-[500px] ">
              <h1 className="my-8 text-3xl font-bold text-center w-[80%] md:w-[30%] mx-auto border-b-4 p-2 text-[#e4aa48]">
                          My Work Experience
                     </h1>

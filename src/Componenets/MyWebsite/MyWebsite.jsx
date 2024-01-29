@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 const MyWebsite = () => {
     return (
-        <div className="mt-[30px]">
+        <div className="mt-[30px] ">
            
             <div  data-aos="flip-left"  data-aos-duration="2000">
             <h1 className=" mt-[30px] text-[35px] text-center text-[#e4aa48] font-bold underline ">My Projects</h1>
             </div>
 
-            <div  data-aos="flip-up" data-aos-duration="2500" className="carousel w-[40%] md:w-[80%] lg:w-[75%] md:ml-[80px] lg:ml-[200px]">
+            <div  data-aos="flip-up" data-aos-duration="2500" className="carousel w-[80%] md:w-[80%] lg:w-[75%] ml-[30px] md:ml-[80px] lg:ml-[200px]">
   <div id="slide1" className="carousel-item relative w-full h-[700px] mt-[40px] ">
 
     <Link target="_blank" to ={"https://divergent-monkey.surge.sh/"}><img src="https://i.ibb.co/Ky92spF/Screenshot-64.png" className=" h-[700px]" /></Link>
