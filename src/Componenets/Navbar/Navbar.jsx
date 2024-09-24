@@ -10,12 +10,12 @@ const Navbar = () => {
   <div className="drawer-content flex flex-col">
     {/* Navbar */}
     <div className="w-full navbar dark">
-      <div className="flex-none lg:hidden">
-        <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
+      <div className="flex-none lg:hidden text-white">
+        <label  htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
         </label>
       </div> 
-      <div className="flex-1 text-[#e4aa48] font-bold text-[35px]">ZI <span className="text-[45px] text-white">.</span></div>
+      <div className="flex-1 text-[#e4aa48] font-bold text-[35px] ">ZI <span className="text-[45px] text-white">.</span></div>
       <div className="flex-none hidden lg:block">
         <ul className="menu menu-horizontal">
           {/* Navbar menu content here */}

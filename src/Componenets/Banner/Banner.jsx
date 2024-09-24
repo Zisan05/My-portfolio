@@ -3,9 +3,9 @@
 const Banner = () => {
     return (
         <div className="dark md:h-[800px] lg:h-[600px]">
-            <div  className=" md:ml-[100px] lg:ml-[250px] flex flex-col md:flex-row lg:flex-row items-center md:gap-[50px] lg:gap-[150px] mt-[80px]">
+            <div  className=" px-[30px] lg:ml-[150px] flex flex-col md:flex-row lg:flex-row items-center  mt-[80px]">
 
-              <div>
+              <div className="w-[400px] ml-[200px] md:ml-0">
                 <h1 className="text-[45px] font-bold text-[#f8f9fa]">ZISAN <br />ISLAM <span className="text-[#e4aa48] text-[45px]">.</span></h1>
                 <p className="border-b-4 border-b-[#e4aa48] w-[60%] mt-[30px]"></p>
                 <p className="mt-[20px]">
@@ -17,7 +17,7 @@ const Banner = () => {
                 <p className="">
                 <a className="text-[#f8f9fa] text-[23px] font-medium hover:text-[#e4aa48]" href="">Link Din</a>
                 <a className="text-[#e4aa48] text-[28px] font-medium ml-[5px]" href="">|</a>
-                <a className="text-[#f8f9fa] text-[23px] font-medium ml-[5px] hover:text-[#e4aa48]" href="">Instagram</a>
+                <a className="text-[#f8f9fa] text-[23px] font-medium ml-[5px] hover:text-[#e4aa48]" href="https://wa.me/01921675028">Whats App</a>
                 </p>
                 <button className="text-[#f8f9fa] border-[3px] px-[15px] py-[10px] text-[20px] font-semibold border-[#e4aa48] mt-[30px] hover:bg-[#e4aa48]">Contact me</button>
               </div>

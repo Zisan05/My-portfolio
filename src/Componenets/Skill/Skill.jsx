@@ -14,31 +14,31 @@ const Skill = () => {
 
             <div  data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="800" className=" mt-[40px] flex flex-col md:flex-row lg:flex-row gap-[5px] ml-[60px] md:ml-0 lg:ml-[18%]">
+     data-aos-duration="800" className=" mt-[40px] flex flex-col md:flex-row lg:flex-row gap-[5px] justify-center ml-[90px] md:ml-0 pb-[30px]">
 
-                <div className="h-[250px] w-[200px] bg-[#343a40]">
+                <div className="h-[250px] w-[200px] bg-[#343a40] pt-[30px]">
                     <FaReact className="text-[#e4aa48] text-[155px] container mx-auto"></FaReact>
-                    <h1 className="text-[#d8dbdf] text-[35px] font-semibold text-center">React JS</h1>
+                    <h1 className="text-[#d8dbdf] text-[30px] font-semibold text-center">React JS</h1>
                 </div>
 
-                <div className="h-[250px] w-[200px] bg-[#343a40]">
+                <div className="h-[250px] w-[200px] bg-[#343a40] pt-[30px]">
                     <SiMongodb className="text-[#e4aa48] text-[155px] container mx-auto"></SiMongodb>
-                    <h1 className="text-[#d8dbdf] text-[35px] font-semibold text-center">Mongo DB</h1>
+                    <h1 className="text-[#d8dbdf] text-[30px] font-semibold text-center">Mongo DB</h1>
                 </div>
 
-                <div className="h-[250px] w-[200px] bg-[#343a40]">
+                <div className="h-[250px] w-[200px] bg-[#343a40] pt-[30px]">
                     <SiFirebase className="text-[#e4aa48] text-[155px] container mx-auto"></SiFirebase>
-                    <h1 className="text-[#d8dbdf] text-[35px] font-semibold text-center">FireBase</h1>
+                    <h1 className="text-[#d8dbdf] text-[30px] font-semibold text-center">FireBase</h1>
                 </div>
                 
-                <div className="h-[250px] w-[200px] bg-[#343a40]">
+                <div className="h-[250px] w-[200px] bg-[#343a40] pt-[30px]">
                     <SiTailwindcss className="text-[#e4aa48] text-[155px] container mx-auto"></SiTailwindcss>
-                    <h1 className="text-[#d8dbdf] text-[35px] font-semibold text-center">Tailwind</h1>
+                    <h1 className="text-[#d8dbdf] text-[30px] font-semibold text-center">Tailwind</h1>
                 </div>
                 
-                <div className="h-[250px] w-[200px] bg-[#343a40]">
+                <div className="h-[250px] w-[200px] bg-[#343a40] pt-[30px]">
                     <IoLogoJavascript className="text-[#e4aa48] text-[155px] container mx-auto"></IoLogoJavascript>
-                    <h1 className="text-[#d8dbdf] text-[35px] font-semibold text-center">Java script</h1>
+                    <h1 className="text-[#d8dbdf] text-[30px] font-semibold text-center">Java script</h1>
                 </div>
 
             </div>
