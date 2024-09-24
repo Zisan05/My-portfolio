@@ -35,16 +35,16 @@ const Navbar = () => {
       <div className="flex-none hidden lg:block">
         <ul className="menu menu-horizontal">
           {/* Navbar menu content here */}
-          <li className=" text-[#e4aa48] font-bold text-[20px]"><a>Home</a></li>
-      <li className=" text-[#e4aa48] font-bold text-[20px]" ><a href="#Skill">My Skill</a></li>
-          <li className=" text-[#e4aa48] font-bold text-[20px]"><a href="#Projects">My Projects</a></li>
-          <li className=" text-[#e4aa48] font-bold text-[20px]"><a href="#Experience">My Work Experience</a></li>
-          <li className=" text-[#e4aa48] font-bold text-[20px]"><a href="#Contract">Contract</a></li>
+          <li className=" text-[#e4aa48] font-bold text-[20px] transition-text hover:text-[23px] duration-1000"><a>Home</a></li>
+      <li className=" text-[#e4aa48] font-bold text-[20px] transition-text hover:text-[23px] duration-1000" ><a href="#Skill">My Skill</a></li>
+          <li className=" text-[#e4aa48] font-bold text-[20px] transition-text hover:text-[23px] duration-1000"><a href="#Projects">My Projects</a></li>
+          <li className=" text-[#e4aa48] font-bold text-[20px] transition-text hover:text-[23px] duration-1000"><a href="#Experience">My Work Experience</a></li>
+          <li className=" text-[#e4aa48] font-bold text-[20px] transition-text hover:text-[23px] duration-1000"><a href="#Contract">Contract</a></li>
       
           <li className=" text-[#e4aa48] font-bold text-[20px]"><a>|</a></li>
-          <li className="text-[#e4aa48] text-[25px]"><a href="https://m.me/100092237885166" target="_blank" ><RiMessengerFill></RiMessengerFill></a></li>
-          <li className="text-[#e4aa48] text-[25px]"><a href="https://www.facebook.com/profile.php?id=100092237885166" target="_blank"><FaFacebookF></FaFacebookF></a></li>
-          <li className="text-[#e4aa48] text-[25px]"><a href="https://wa.me/8801790866932" target="_blank"><IoLogoWhatsapp ></IoLogoWhatsapp ></a></li>
+          <li className="text-[#e4aa48] text-[25px] transition-text hover:text-[30px] duration-1000"><a href="https://m.me/100092237885166" target="_blank" ><RiMessengerFill></RiMessengerFill></a></li>
+          <li className="text-[#e4aa48] text-[25px] transition-text hover:text-[30px] duration-1000"><a href="https://www.facebook.com/profile.php?id=100092237885166" target="_blank"><FaFacebookF></FaFacebookF></a></li>
+          <li className="text-[#e4aa48] text-[25px] transition-text hover:text-[30px] duration-1000"><a href="https://wa.me/8801790866932" target="_blank"><IoLogoWhatsapp ></IoLogoWhatsapp ></a></li>
           
         </ul>
       </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
       <li className=" text-[#e4aa48] font-bold text-[25px] dark w-[100px]"><a>Home</a></li>
     <li className=" text-[#e4aa48] font-bold text-[25px] dark w-[140px] mt-[20px]"><a href="#Skill">My Skill</a></li>
     <li className=" text-[#e4aa48] font-bold text-[25px] dark w-[180px] mt-[20px]"><a href="#Projects">My Projects</a></li>
-    <li className=" text-[#e4aa48] font-bold text-[25px] dark w-[140px] mt-[20px]"><a href="#Experience">My Work Experience</a></li>
+    <li className=" text-[#e4aa48] font-bold text-[25px] dark w-[240px] mt-[20px]"><a href="#Experience">Work Experience</a></li>
     <li className=" text-[#e4aa48] font-bold text-[25px] dark w-[140px] mt-[20px]"><a href="#Contract">Contract</a></li>
    
     
