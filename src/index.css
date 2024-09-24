@@ -13,3 +13,7 @@
  .yellow{
     color: #e4aa48;
  }
+
+ html {
+   scroll-behavior: smooth;
+ }

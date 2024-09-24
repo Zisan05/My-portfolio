@@ -3,21 +3,21 @@
 const Banner = () => {
     return (
         <div className="dark md:h-[800px] lg:h-[600px]">
-            <div  className=" px-[30px] lg:ml-[150px] flex flex-col md:flex-row lg:flex-row items-center  mt-[80px]">
+            <div  className=" px-[30px]  flex flex-col md:flex-row lg:flex-row items-center gap-[50px] justify-center mt-[80px]">
 
-              <div className="w-[400px] ml-[200px] md:ml-0">
+              <div className="">
                 <h1 className="text-[45px] font-bold text-[#f8f9fa]">ZISAN <br />ISLAM <span className="text-[#e4aa48] text-[45px]">.</span></h1>
                 <p className="border-b-4 border-b-[#e4aa48] w-[60%] mt-[30px]"></p>
                 <p className="mt-[20px]">
-                <a className="text-[#f8f9fa] text-[23px] font-medium hover:text-[#e4aa48]" href="">Git Hub</a>
+                <a className="text-[#f8f9fa] text-[23px] font-medium hover:text-[#e4aa48]" href="https://github.com/Zisan05" target="_blank">Git Hub</a>
                 <a className="text-[#e4aa48] text-[28px] font-medium ml-[5px]" href="">|</a>
-                <a className="text-[#f8f9fa] text-[23px] font-medium ml-[5px] hover:text-[#e4aa48]" href="">Facebook</a>
+                <a className="text-[#f8f9fa] text-[23px] font-medium ml-[5px] hover:text-[#e4aa48]" href="https://www.facebook.com/profile.php?id=100092237885166" target="_blank">Facebook</a>
                 </p>
 
                 <p className="">
-                <a className="text-[#f8f9fa] text-[23px] font-medium hover:text-[#e4aa48]" href="">Link Din</a>
+                <a className="text-[#f8f9fa] text-[23px] font-medium hover:text-[#e4aa48]" href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank">Link Din</a>
                 <a className="text-[#e4aa48] text-[28px] font-medium ml-[5px]" href="">|</a>
-                <a className="text-[#f8f9fa] text-[23px] font-medium ml-[5px] hover:text-[#e4aa48]" href="https://wa.me/01921675028">Whats App</a>
+                <a className="text-[#f8f9fa] text-[23px] font-medium ml-[5px] hover:text-[#e4aa48]" href="https://wa.me/880170866932" target="_blank">Whats App</a>
                 </p>
                 <button className="text-[#f8f9fa] border-[3px] px-[15px] py-[10px] text-[20px] font-semibold border-[#e4aa48] mt-[30px] hover:bg-[#e4aa48]">Contact me</button>
               </div>

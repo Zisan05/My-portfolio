@@ -5,8 +5,10 @@ import { SiTailwindcss } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 
 const Skill = () => {
+
+
     return (
-        <div className="bg-[#4b4f52] lg:h-[500px] mt-[50px]">
+        <div id="Skill" className="bg-[#4b4f52] lg:h-[500px] mt-[50px]">
             <div data-aos="flip-right"  data-aos-duration="2000">
          <h1 className="text-[35px] text-[#e4aa48] text-center font-semibold underline">My Skills</h1>
          <h1 className="text-[35px] text-[#d8dbdf] text-center font-semibold ">What I Am Great At</h1>

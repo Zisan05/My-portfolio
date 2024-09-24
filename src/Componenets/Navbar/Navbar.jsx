@@ -1,10 +1,26 @@
 import { FiTwitter } from "react-icons/fi";
 import { FaFacebookF } from "react-icons/fa";
 import { BsSkype } from "react-icons/bs";
+import { RiMessengerFill } from "react-icons/ri";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { useRef } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
+
+  const sectionRef = useRef(null);
+
+
+  const scrollToSection = () => {
+    if (sectionRef.current) {
+    const obj =  sectionRef.current.scrollIntoView({ behavior: 'smooth' });
+
+      console.log(obj);
+    }
+  };
+
      return (
-          <div className="w-[80%] container mx-auto">
+          <div id="Nav"  className="w-[80%] container mx-auto">
                <div className="drawer">
   <input id="my-drawer-3" type="checkbox" className="drawer-toggle" /> 
   <div className="drawer-content flex flex-col">
@@ -20,11 +36,15 @@ const Navbar = () => {
         <ul className="menu menu-horizontal">
           {/* Navbar menu content here */}
           <li className=" text-[#e4aa48] font-bold text-[20px]"><a>Home</a></li>
-          <li className=" text-[#e4aa48] font-bold text-[20px]"><a>My Information</a></li>
+      <li className=" text-[#e4aa48] font-bold text-[20px]" ><a href="#Skill">My Skill</a></li>
+          <li className=" text-[#e4aa48] font-bold text-[20px]"><a href="#Projects">My Projects</a></li>
+          <li className=" text-[#e4aa48] font-bold text-[20px]"><a href="#Experience">My Work Experience</a></li>
+          <li className=" text-[#e4aa48] font-bold text-[20px]"><a href="#Contract">Contract</a></li>
+      
           <li className=" text-[#e4aa48] font-bold text-[20px]"><a>|</a></li>
-          <li className="text-[#e4aa48] text-[25px]"><a href=""><FiTwitter></FiTwitter></a></li>
-          <li className="text-[#e4aa48] text-[25px]"><a href=""><FaFacebookF></FaFacebookF></a></li>
-          <li className="text-[#e4aa48] text-[25px]"><a href=""><BsSkype></BsSkype></a></li>
+          <li className="text-[#e4aa48] text-[25px]"><a href="https://m.me/100092237885166" target="_blank" ><RiMessengerFill></RiMessengerFill></a></li>
+          <li className="text-[#e4aa48] text-[25px]"><a href="https://www.facebook.com/profile.php?id=100092237885166" target="_blank"><FaFacebookF></FaFacebookF></a></li>
+          <li className="text-[#e4aa48] text-[25px]"><a href="https://wa.me/8801790866932" target="_blank"><IoLogoWhatsapp ></IoLogoWhatsapp ></a></li>
           
         </ul>
       </div>
@@ -32,19 +52,15 @@ const Navbar = () => {
   </div> 
   <div className="drawer-side ">
     <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label> 
-    <ul className="menu p-4 w-80 h-[70%] bg-[#6c757d]">
+    <ul className="menu p-4 w-[300px] h-[70%] bg-[#6c757d]">
       {/* Sidebar content here */}
-      <li className=" text-[#e4aa48] font-bold text-[20px]"><a>Home</a></li>
-      <li className=" text-[#e4aa48] font-bold text-[20px]"><a>My Information</a></li>
-      <p className="border-b-4 border-b-[#e4aa48] w-[60%]"></p>
-      <li className=" flex-row text-[#e4aa48] font-bold text-[20px]">
-        
-          <a className="text-[25px]" href=""><FiTwitter></FiTwitter></a>
-      <a className="text-[25px]" href=""><FaFacebookF></FaFacebookF></a>
-      <a className="text-[25px]" href=""><BsSkype></BsSkype></a>
-      
-      </li>
-      
+      <li className=" text-[#e4aa48] font-bold text-[25px] dark w-[100px]"><a>Home</a></li>
+    <li className=" text-[#e4aa48] font-bold text-[25px] dark w-[140px] mt-[20px]"><a href="#Skill">My Skill</a></li>
+    <li className=" text-[#e4aa48] font-bold text-[25px] dark w-[180px] mt-[20px]"><a href="#Projects">My Projects</a></li>
+    <li className=" text-[#e4aa48] font-bold text-[25px] dark w-[140px] mt-[20px]"><a href="#Experience">My Work Experience</a></li>
+    <li className=" text-[#e4aa48] font-bold text-[25px] dark w-[140px] mt-[20px]"><a href="#Contract">Contract</a></li>
+   
+    
     </ul>
   </div>
 </div>
