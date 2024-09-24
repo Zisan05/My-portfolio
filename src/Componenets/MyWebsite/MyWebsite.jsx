@@ -5,7 +5,7 @@ const MyWebsite = () => {
     return (
         <div id="Projects" className="mt-[30px] ">
 
-<a href="#Nav"><IoIosArrowDropupCircle className="size-[50px] relative  top-[900px] lg:top-[850px] left-[320px] md:left-[650px] lg:left-[1400px] text-white"></IoIosArrowDropupCircle></a>
+<a href="#Nav"><IoIosArrowDropupCircle className="size-[50px] relative  top-[900px] lg:top-[850px] left-[320px] md:left-[650px] lg:left-[1500px] text-white"></IoIosArrowDropupCircle></a>
            
             <div  data-aos="flip-left"  data-aos-duration="2000">
             <h1 className=" mt-[30px] text-[35px] text-center text-[#e4aa48] font-bold underline ">My Projects</h1>
