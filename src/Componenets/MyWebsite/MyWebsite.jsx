@@ -138,16 +138,16 @@ href={item.live_link} target="blank"><FaExternalLinkAlt  className="text-white t
 
 
 {
-  project.length > 5 ? <div onClick={handleProjectSize} className="flex justify-center">
-  <button className="bg-[#e4aa48] mt-[30px] text-[25px] px-[20px] py-[5px] text-white font-semibold">See Few</button> 
-    </div>  : <div onClick={handleProject} className="flex justify-center">
-            <button className="bg-[#e4aa48] mt-[30px] text-[25px] px-[20px] py-[5px] text-white font-semibold">See All</button> 
+  project.length > 5 ? <div  className="flex justify-center">
+  <button onClick={handleProjectSize} className="bg-[#e4aa48] mt-[30px] text-[25px] px-[20px] py-[5px] text-white font-semibold">See Few</button> 
+    </div>  : <div  className="flex justify-center">
+            <button onClick={handleProject} className="bg-[#e4aa48] mt-[30px] text-[25px] px-[20px] py-[5px] text-white font-semibold">See All</button> 
               </div> 
 }
 
-<div className="text-[45px] text-white flex justify-end mr-0 md:mr-0 lg:mr-[130px]">
+<a href="#Nav"><div className="text-[45px] text-white flex justify-end mr-0 md:mr-0 lg:mr-[130px]">
   <IoIosArrowDropupCircle></IoIosArrowDropupCircle>
-</div>
+</div></a>
         
             
 
