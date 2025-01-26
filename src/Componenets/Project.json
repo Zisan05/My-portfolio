@@ -1,13 +1,12 @@
 [
-    {
-        "id": 1,
-        "name": "Gamer",
-        "category": "HTML CSS",
-        "image": "https://i.ibb.co.com/1mpnF2G/Screenshot-66.png",
-        "live_link": "https://zisan05.github.io/gamer/",
-        "git_link": "https://github.com/Zisan05/gamer"
-        
-    },
+   {
+      "id": 1,
+      "name": "DocMeet",
+      "category": "React",
+      "image": "https://i.ibb.co.com/yNbpsV0/Screenshot-93.png",
+      "live_link": "https://devassign.vercel.app/",
+      "git_link": "https://github.com/Zisan05/DocMeet"
+   },
     {
        "id": 2,
         "name": "Flower House",
@@ -71,14 +70,7 @@
         "image": "https://i.ibb.co.com/zhSKkVr/Screenshot-74.png",
         "live_link": "https://devassign.vercel.app/",
         "git_link": "https://github.com/Zisan05/DevAssign"
-     },
-     {
-        "id": 10,
-        "name": "DocMeet",
-        "category": "React",
-        "image": "https://i.ibb.co.com/zhSKkVr/Screenshot-74.png",
-        "live_link": "https://devassign.vercel.app/",
-        "git_link": "https://github.com/Zisan05/DocMeet"
      }
+     
 
 ]

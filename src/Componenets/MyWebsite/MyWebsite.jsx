@@ -69,12 +69,12 @@ console.log(visible);
      {/* project div */}
 
      {
-      visible ? <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-[30px] mt-[50px] ml-[10px] md:ml-[10px] lg:ml-[80px]">
+      visible ? <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-[30px] mt-[50px]  ">
       {
         project.map(item => <div>
-               <div className=" bg-[#e4aa48] w-[350px] md:w-[350px] lg:w-[400px]  shadow-xl">
+               <div className=" bg-[#e4aa48] w-[350px] md:w-[350px] lg:w-[400px]  shadow-xl mx-auto ">
 <figure>
-<img
+<img className="h-[300px] w-full"
 src={item.image}
 alt="Shoes" />
 </figure>
@@ -111,7 +111,7 @@ href={item.live_link} target="blank"><FaExternalLinkAlt  className="text-white t
   <figure>
     <img
       src={item.image}
-      alt="Shoes" />
+      alt="" />
   </figure>
   <div className="card-body">
     
