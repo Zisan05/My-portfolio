@@ -1,27 +1,27 @@
 [
    {
       "id": 1,
-      "name": "DocMeet",
+      "name": "Civic Engagement System",
       "category": "React",
-      "image": "https://i.ibb.co.com/yNbpsV0/Screenshot-93.png",
-      "live_link": "https://devassign.vercel.app/",
-      "git_link": "https://github.com/Zisan05/DocMeet"
+      "image": "https://i.ibb.co.com/bg5hpT13/Screenshot-128.png",
+      "live_link": "https://ces-bd.vercel.app/",
+      "git_link": "https://github.com/Zisan05/CEDS_Fronted"
    },
     {
        "id": 2,
-        "name": "Flower House",
-        "category": "HTML CSS",
-        "image": "https://i.ibb.co.com/Qng8hW6/Screenshot-67.png",
-        "live_link": "https://zisan05.github.io/1st-assignment/",
-        "git_link": "https://github.com/Zisan05/1st-assignment"
+        "name": "Dine Smart",
+        "category": "React",
+        "image": "https://i.ibb.co.com/N61mCwfs/Screenshot-129.png",
+        "live_link": "https://dinesmart-bd.vercel.app/",
+        "git_link": "https://github.com/Zisan05/dinesmart"
     },
     {
         "id": 3,
-         "name": "Geometry Genius",
-         "category": "JS",
-         "image": "https://i.ibb.co.com/mymhPmL/Screenshot-69.png",
-         "live_link": "https://zisan05.github.io/geometry-genius/",
-         "git_link": "https://github.com/Zisan05/geometry-genius"
+         "name": "Novas",
+         "category": "React",
+         "image": "https://i.ibb.co.com/FbP78jd4/Screenshot-130.png",
+         "live_link": "https://novasbd.vercel.app/",
+         "git_link": "https://github.com/Zisan05/novas_frontend"
      },
      {
         "id": 4,

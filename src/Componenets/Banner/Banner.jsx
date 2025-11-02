@@ -6,7 +6,7 @@ const Banner = () => {
         <div className="dark md:h-[800px] lg:h-[600px]">
             <div  className=" px-[30px]  flex flex-col md:flex-row lg:flex-row items-center gap-[50px] justify-center mt-[80px]">
 
-              <div className="">
+              <div className=" md:w-[450px] lg:w-[250px] ">
                 <motion.h1 
                 initial={{opacity : 0 , x : -100}}
                 animate ={{opacity : 1 , x : 0}}
@@ -14,7 +14,7 @@ const Banner = () => {
                 className="text-[45px] font-bold text-[#f8f9fa] ">ZISAN <br />ISLAM <span className="text-[#e4aa48] text-[45px]">.</span></motion.h1>
                 <p className="border-b-4 border-b-[#e4aa48] w-[60%] mt-[30px]"></p>
                 <p className="mt-[20px]">
-                <a className="text-[#f8f9fa] text-[23px] font-medium  hover:text-[#e4aa48] transition-text  hover:text-[26px] duration-1000 " href="https://github.com/Zisan05" target="_blank">Git Hub</a>
+                <a className="text-[#f8f9fa]  text-[23px] font-medium  hover:text-[#e4aa48] transition-text  hover:text-[26px] duration-1000 " href="https://github.com/Zisan05" target="_blank">Git Hub</a>
                 <a className="text-[#e4aa48] text-[28px] font-medium ml-[5px]" href="">|</a>
                 <a className="text-[#f8f9fa] text-[23px] font-medium ml-[5px] hover:text-[#e4aa48] transition-text  hover:text-[26px] duration-1000" href="https://www.facebook.com/profile.php?id=100092237885166" target="_blank">Facebook</a>
                 </p>

@@ -72,18 +72,18 @@ console.log(visible);
       visible ? <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-[30px] mt-[50px]  ">
       {
         project.map(item => <div>
-               <div className=" bg-[#e4aa48] w-[350px] md:w-[350px] lg:w-[400px]  shadow-xl mx-auto ">
+               <div className=" bg-[#e4aa48]  w-[350px] md:w-[350px] lg:w-[400px]  shadow-xl mx-auto rounded-[10px]">
 <figure>
-<img className="h-[300px] w-full"
+<img className="h-[200px] w-full rounded-t-[10px]"
 src={item.image}
 alt="Shoes" />
 </figure>
-<div className="card-body">
+<div className="card-body ">
 <motion.h2
 initial = {{opacity : 0 , y : 30}}
 animate = { {opacity : 1 , y : 0}}
 transition={{duration : 1 , delay : 1}}
-className="text-[30px] font-bold bg-[#4b4f52] text-center py-[10px] relative bottom-[60px] text-[#e4aa48]">{item.name} </motion.h2>
+className="text-[25px] font-bold bg-[#4b4f52] text-center py-[10px] relative bottom-[60px] text-[#e4aa48] rounded-[10px]">{item.name} </motion.h2>
 <div className="mt-[20px] flex justify-around">
 <motion.a
 initial = {{rotate: 360 , x : -100 ,opacity : 0 }}
